@@ -44,7 +44,7 @@ npm start
 ```
 `/remove_card/<'CardId'>`: Removes the Card from a List in  a Board
 ```
-###ScreenShorts
+### ScreenShorts
 1. To Get All The Boards
 ![image](https://user-images.githubusercontent.com/111122684/221442643-4465f84e-df11-416e-a6c7-3c8925b7f165.png)
 2.To Get All The Lists
@@ -62,4 +62,4 @@ npm start
 8. Card Is Removed
 ![image](https://user-images.githubusercontent.com/111122684/221442912-7be15be7-1c03-42bf-9766-9293fd91b3a4.png)
 
-#Thanks For Reading.
+# Thanks For Reading.
