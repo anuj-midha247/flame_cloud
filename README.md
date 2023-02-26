@@ -35,11 +35,11 @@ npm start
 ```
 `/boards`: List all the boards in the Trello
 ```
-`/lists/<'BoardId'>`: List all the boards in the Trello
+`/lists/<'BoardId'>`: List all the lists in the Trello Board
 ```
 `/createboard`: Craetes a new board in the Trello Workspace
 ```
-`/delete_board/<'BoardId'>`: List all the boards in the Trello
+`/delete_board/<'BoardId'>`: Deletes the board from the Trello
 ```
 `/add_card/<'BoardId'>`: Adds the card in a list of a board
 ```
