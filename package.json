@@ -1,0 +1,25 @@
+{
+  "name": "flame_cloud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anuj-midha247/flame_cloud.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anuj-midha247/flame_cloud/issues"
+  },
+  "homepage": "https://github.com/anuj-midha247/flame_cloud#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.61.0",
+    "telegram-bot-api": "^2.0.1",
+    "trello": "^0.11.0"
+  }
+}
