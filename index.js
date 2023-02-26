@@ -36,8 +36,9 @@ bot.onText(/\/boards/, async (msg) => {
   bot.onText(/\/lists/, async (msg) => {
     const chatId = msg.chat.id;
   
-    try {
-      const lists = await trello.getListsOnBoard('Trur9Tsy');
+      try {
+        const boardId = msg.text.replace(/\/lists\s*/, '');
+      const lists = await trello.getListsOnBoard(`${boardId}`);
       const listNames = lists.map((list) => list.name).join('\n');
       bot.sendMessage(chatId, `Your Trello lists:\n${listNames}`);
     } catch (err) {
