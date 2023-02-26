@@ -39,7 +39,7 @@ npm start
 `/lists/<'BoardId'>`: List all the lists in the Trello Board
 ```
 ```
-`/createboard`: Craetes a new board in the Trello Workspace
+`/createboard`: Creates a new board in the Trello Workspace
 ```
 ```
 `/delete_board/<'BoardId'>`: Deletes the board from the Trello
