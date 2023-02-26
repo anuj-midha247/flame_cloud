@@ -63,7 +63,7 @@ trello1.post('/1/boards/', { name: 'New Board' }, async(err, data) => {
       console.log(err);
       return bot.sendMessage(chatId, 'An error occurred while creating the board.');
     }
-    const boardUrl = `https://trello.com/b/${data.shortLink}`;
+    const boardUrl = `${data.url}`;
     bot.sendMessage(chatId, `Board created: ${boardUrl}`);
   });
 });
@@ -81,5 +81,44 @@ trello1.del(`/1/boards/${boardId}`, (err, data) => {
 
   bot.sendMessage(msg.chat.id, 'Board deleted successfully.');
 });
+});
+  
+
+
+bot.onText(/\/add_card/, async(msg, match) => {
+    // Your code here
+    const boardId = msg.text.replace(/\/add_card\s*/, '');;
+    const lists = await trello.getListsOnBoard(boardId);
+    const listNames = lists.map((list) => list.id);
+    const listId = `${listNames[0]}`;    //<'Your List ID'>
+    const cardName = 'New Card Name';
+    
+    trello1.post(`/1/cards?name=${cardName}&idList=${listId}`, { }, (err, data) => {
+      if (err) {
+        console.log(err);
+        return bot.sendMessage(msg.chat.id, 'An error occurred while adding the card.');
+      }
+    
+      const cardUrl = `https://trello.com/c/${data.shortLink}`;
+      bot.sendMessage(msg.chat.id, `Card added: ${cardUrl}`);
+    });
+});
+  
+
+bot.onText(/\/remove_card/, (msg, match) => {
+    // Your code here
+    
+       
+    const cardId = msg.text.replace(/\/remove_card\s*/, '');
+
+trello1.del(`/1/cards/${cardId}`, {}, (err, data) => {
+  if (err) {
+    console.log(err);
+    return bot.sendMessage(msg.chat.id, 'An error occurred while removing the card.');
+  }
+
+  bot.sendMessage(msg.chat.id, 'Card removed.');
+});
   });
+  
   
