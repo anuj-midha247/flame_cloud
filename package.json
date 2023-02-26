@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/anuj-midha247/flame_cloud#readme",
   "dependencies": {
+    "node-fetch": "^3.3.0",
     "node-telegram-bot-api": "^0.61.0",
+    "node-trello": "^1.3.0",
     "telegram-bot-api": "^2.0.1",
     "trello": "^0.11.0"
   }
