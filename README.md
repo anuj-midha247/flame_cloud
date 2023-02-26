@@ -32,6 +32,7 @@ npm start
 ```
 #### Telegram commands
 
+```
 `/boards`: List all the boards in the Trello
 ```
 `/lists/<'BoardId'>`: List all the boards in the Trello
