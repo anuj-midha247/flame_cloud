@@ -3,7 +3,9 @@
 A bot for interacting with Trello boards from Telegram.
 
 ## Getting Started
-You can paste this link in the browser , it will redirect to telegram, t.me/flame_anuj_bot
+
+You can paste this link in the browser , it will redirect to telegram,
+t.me/flame_anuj_bot
 Or ELse
 These instructions will get you a copy of the project up and running on your local machine.
 
