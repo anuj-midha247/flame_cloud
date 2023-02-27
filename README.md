@@ -3,7 +3,8 @@
 A bot for interacting with Trello boards from Telegram.
 
 ## Getting Started
-
+You can paste this link in the browser , it will redirect to telegram, t.me/flame_anuj_bot
+Or ELse
 These instructions will get you a copy of the project up and running on your local machine.
 
 
@@ -32,23 +33,29 @@ npm start
 ```
 #### Telegram commands
 
+ List all the boards in the Trello :
 ```
-`/boards`: List all the boards in the Trello
+`/boards`
 ```
+ List all the lists in the Trello Board :
 ```
-`/lists/<'BoardId'>`: List all the lists in the Trello Board
+`/lists/<'BoardId'>`
 ```
+ Creates a new board in the Trello Workspace :
 ```
-`/createboard`: Creates a new board in the Trello Workspace
+`/createboard`
 ```
+ Deletes the board from the Trello :
 ```
-`/delete_board/<'BoardId'>`: Deletes the board from the Trello
+`/delete_board/<'BoardId'>`
 ```
+ Adds the card in a list of a board :
 ```
-`/add_card/<'BoardId'>`: Adds the card in a list of a board
+`/add_card/<'BoardId'>`
 ```
+ Removes the Card from a List in  a Board :
 ```
-`/remove_card/<'CardId'>`: Removes the Card from a List in  a Board
+`/remove_card/<'CardId'>`
 ```
 ### ScreenShorts
 1. To Get All The Boards
@@ -67,5 +74,8 @@ npm start
 ![image](https://user-images.githubusercontent.com/111122684/221442898-b55cfe89-a064-4fc6-b8fb-b965ed3303ba.png)
 8. Card Is Removed
 ![image](https://user-images.githubusercontent.com/111122684/221442912-7be15be7-1c03-42bf-9766-9293fd91b3a4.png)
+
+### Recording_Link:
+https://drive.google.com/file/d/1O2Q4DpFZfo8lx-zRnL5G5D1EBZlSHyc8/view?usp=sharing
 
 # Thanks For Reading.
