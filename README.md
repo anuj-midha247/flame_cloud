@@ -71,7 +71,7 @@ npm start
 5.To Add A Card
 ![image](https://user-images.githubusercontent.com/111122684/221442844-b691a8b0-d82b-44df-a03e-d2c111de76c0.png)
 6. Card Is Added
-![image](https://user-images.githubusercontent.com/111122684/221442853-ed26cd37-854a-485b-b4f8-f89e96c92656.png)
+!image](https://user-images.githubusercontent.com/111122684/221442853-ed26cd37-854a-485b-b4f8-f89e96c92656.png)
 7.To Remove A Card
 ![image](https://user-images.githubusercontent.com/111122684/221442898-b55cfe89-a064-4fc6-b8fb-b965ed3303ba.png)
 8. Card Is Removed
