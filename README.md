@@ -68,7 +68,7 @@ npm start
 ![image](https://user-images.githubusercontent.com/111122684/221442684-06f3052e-914f-4da8-bdcc-8774d6db69fc.png)
 4. To Remove A Board
 ![image](https://user-images.githubusercontent.com/111122684/221442795-4e69eb26-24dc-4cd7-8c96-9a95305939af.png)
-5. To Add A Card
+5. To Add A Car
 ![image](https://user-images.githubusercontent.com/111122684/221442844-b691a8b0-d82b-44df-a03e-d2c111de76c0.png)
 6. Card Is Added
 ![image](https://user-images.githubusercontent.com/111122684/221442853-ed26cd37-854a-485b-b4f8-f89e96c92656.png)
@@ -78,6 +78,6 @@ npm start
 ![image](https://user-images.githubusercontent.com/111122684/221442912-7be15be7-1c03-42bf-9766-9293fd91b3a4.png)
 
 ### Recording_Link:
-<a href="https://drive.google.com/file/d/1O2Q4DpFZfo8lx-zRnL5G5D1EBZlSHyc8/view?usp=sharing"/>
+https://drive.google.com/file/d/1O2Q4DpFZfo8lx-zRnL5G5D1EBZlSHyc8/view?usp=sharing
 
 # Thanks For Reading.
