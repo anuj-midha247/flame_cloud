@@ -37,38 +37,38 @@ npm start
 
  List all the boards in the Trello :
 ```
-`/boards`
+/boards
 ```
  List all the lists in the Trello Board :
 ```
-`/lists/<'BoardId'>`
+/lists/<BoardId>
 ```
  Creates a new board in the Trello Workspace :
 ```
-`/createboard`
+/createboard/<BoardName>
 ```
  Deletes the board from the Trello :
 ```
-`/delete_board/<'BoardId'>`
+/delete_board/<BoardId>
 ```
  Adds the card in a list of a board :
 ```
-`/add_card/<'BoardId'>`
+/add_card/<BoardId>
 ```
  Removes the Card from a List in  a Board :
 ```
-`/remove_card/<'CardId'>`
+/remove_card/<CardId>
 ```
 ### ScreenShorts
 1. To Get All The Boards
 ![image](https://user-images.githubusercontent.com/111122684/221442643-4465f84e-df11-416e-a6c7-3c8925b7f165.png)
-2. To Get All The Lists
+2. To Get All The Lists of a Board
 ![image](https://user-images.githubusercontent.com/111122684/221442670-8c0a5397-d451-45d8-a02a-a86088ce21cd.png)
 3. To Create A Board
 ![image](https://user-images.githubusercontent.com/111122684/221442684-06f3052e-914f-4da8-bdcc-8774d6db69fc.png)
 4. To Remove A Board
 ![image](https://user-images.githubusercontent.com/111122684/221442795-4e69eb26-24dc-4cd7-8c96-9a95305939af.png)
-5. To Add A Car
+5. To Add A Card
 ![image](https://user-images.githubusercontent.com/111122684/221442844-b691a8b0-d82b-44df-a03e-d2c111de76c0.png)
 6. Card Is Added
 ![image](https://user-images.githubusercontent.com/111122684/221442853-ed26cd37-854a-485b-b4f8-f89e96c92656.png)
