@@ -17,6 +17,15 @@ const bot = new TelegramBot(telegramToken, { polling: true });
 const trello = new Trello(trelloKey, trelloToken);
 const trello1 = new Trello1(trelloKey, trelloToken);
 
+
+
+bot.onText(/\/start/, async (msg) => {
+    const chatId = msg.chat.id;
+  
+      bot.sendMessage(chatId, "Telegram Bot Mai Aapka Swagaat Hai");
+   
+  });
+
 // This below code will lists all boards that are connected to the above trello api workspace by command /boards
 bot.onText(/\/boards/, async (msg) => {
     const chatId = msg.chat.id;
@@ -52,8 +61,9 @@ bot.onText(/\/boards/, async (msg) => {
 bot.onText(/\/createboard/, (msg) => {
   // Get the chat ID of the user who sent the command
   const chatId = msg.chat.id;
+  const boardName = msg.text.replace(/\/createboard\s*/, '');
     
-trello1.post('/1/boards/', { name: 'New Board' }, async(err, data) => {
+trello1.post('/1/boards/', { name: boardName }, async(err, data) => {
     if (err) {
       console.log(err);
       return bot.sendMessage(chatId, 'An error occurred while creating the board.');
