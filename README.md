@@ -3,7 +3,7 @@
 A bot for interacting with Trello boards from Telegram.
 
 ### Recording_Link:
-https://drive.google.com/file/d/1O2Q4DpFZfo8lx-zRnL5G5D1EBZlSHyc8/view?usp=sharing
+https://drive.google.com/file/d/1BjU6dKBKKj4f9xBCfAlda0RiRDrtV7fw/view?usp=sharing
 
 ## Getting Started
 
