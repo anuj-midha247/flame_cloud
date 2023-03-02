@@ -2,6 +2,9 @@
 
 A bot for interacting with Trello boards from Telegram.
 
+### Recording_Link:
+https://drive.google.com/file/d/1O2Q4DpFZfo8lx-zRnL5G5D1EBZlSHyc8/view?usp=sharing
+
 ## Getting Started
 
 You can paste this link in the browser , it will redirect to telegram,
@@ -76,8 +79,5 @@ npm start
 ![image](https://user-images.githubusercontent.com/111122684/221442898-b55cfe89-a064-4fc6-b8fb-b965ed3303ba.png)
 8. Card Is Removed
 ![image](https://user-images.githubusercontent.com/111122684/221442912-7be15be7-1c03-42bf-9766-9293fd91b3a4.png)
-
-### Recording_Link:
-https://drive.google.com/file/d/1O2Q4DpFZfo8lx-zRnL5G5D1EBZlSHyc8/view?usp=sharing
 
 # Thanks For Reading.
