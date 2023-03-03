@@ -2,12 +2,18 @@
 
 A bot for interacting with Trello boards from Telegram.
 
+### Recording_Link:
+https://drive.google.com/file/d/1BjU6dKBKKj4f9xBCfAlda0RiRDrtV7fw/view?usp=sharing
+
 ## Getting Started
 
 You can paste this link in the browser , it will redirect to telegram,
 [Telegram]: https://t.me/flame_anuj_bot
 Or ELse
 These instructions will get you a copy of the project up and running on your local machine.
+
+# Telegram Bot
+https://t.me/flame_anuj_bot
 
 
 ### Prerequisites
@@ -77,7 +83,7 @@ npm start
 8. Card Is Removed
 ![image](https://user-images.githubusercontent.com/111122684/221442912-7be15be7-1c03-42bf-9766-9293fd91b3a4.png)
 
-### Recording_Link:
-https://drive.google.com/file/d/1O2Q4DpFZfo8lx-zRnL5G5D1EBZlSHyc8/view?usp=sharing
+# Simple UI
+https://react-trello-clone.netlify.app/
 
 # Thanks For Reading.
