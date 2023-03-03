@@ -12,6 +12,9 @@ You can paste this link in the browser , it will redirect to telegram,
 Or ELse
 These instructions will get you a copy of the project up and running on your local machine.
 
+# Telegram Bot
+https://t.me/flame_anuj_bot
+
 
 ### Prerequisites
 
